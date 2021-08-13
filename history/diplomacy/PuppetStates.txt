@@ -15,6 +15,13 @@ substate = {
 }
 
 vassal = {
+    first = USA
+    second = CAN
+    start_date = 1825.1.1
+    end_date = 1936.1.1
+}
+
+vassal = {
     first = AST
     second = COL
     start_date = 1815.1.1
