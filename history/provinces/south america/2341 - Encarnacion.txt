@@ -1,0 +1,9 @@
+owner = RGS
+
+controller = RGS
+
+add_core = PRG
+trade_goods = fruit
+life_rating = 31
+
+add_core = RGS

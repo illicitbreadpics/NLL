@@ -1,0 +1,7 @@
+owner = LOM
+controller = LOM
+add_core = VEN
+trade_goods = iron
+life_rating = 35
+
+add_core = LOM

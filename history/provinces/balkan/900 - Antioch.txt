@@ -1,0 +1,9 @@
+owner = TUR
+controller = TUR
+add_core = HTY
+add_core = SYR
+trade_goods = fruit
+life_rating = 35
+terrain = hills
+naval_base = 1
+add_core = TUR

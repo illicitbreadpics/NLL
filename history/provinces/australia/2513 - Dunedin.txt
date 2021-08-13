@@ -1,0 +1,7 @@
+owner = AST
+controller = AST
+add_core = NZL
+trade_goods = fish
+terrain = hills
+life_rating = 35
+add_core = AST

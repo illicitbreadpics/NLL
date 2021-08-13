@@ -1,0 +1,7 @@
+owner = DNN
+controller = DNN
+add_core = DEN
+trade_goods = fruit
+life_rating = 35
+
+add_core = DNN

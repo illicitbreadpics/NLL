@@ -1,0 +1,8 @@
+owner = MTC
+controller = MTC
+
+    first = AST
+trade_goods = coal
+life_rating = 31
+
+add_core = MTC

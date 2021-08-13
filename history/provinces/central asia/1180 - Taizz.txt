@@ -1,0 +1,6 @@
+owner = HDJ
+controller = HDJ
+add_core = NYE
+trade_goods = wool
+life_rating = 20
+add_core = HDJ

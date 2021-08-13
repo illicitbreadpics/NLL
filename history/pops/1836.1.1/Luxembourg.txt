@@ -1,0 +1,270 @@
+#Luxembourg (172000)
+#In personal union with Netherlands in 1836
+#Luxembourg (172000/43000 POPS)
+######Jews
+########
+397 = {
+    aristocrats = {
+        culture = north_german
+        religion = catholic
+        size = 164
+    }
+
+    bureaucrats = {
+        culture = north_german
+        religion = catholic
+        size = 23
+    }
+
+    officers = {
+        culture = north_german
+        religion = catholic
+        size = 47
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = catholic
+        size = 141
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 705
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 1880
+    }
+
+    farmers = {
+        culture = north_german
+        religion = catholic
+        size = 12765
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 1241
+    }
+
+    craftsmen = {
+        culture = north_german
+        religion = catholic
+        size = 52
+    }
+
+    craftsmen = {
+        culture = french
+        religion = catholic
+        size = 9
+    }
+
+    aristocrats = {
+        culture = french
+        religion = catholic
+        size = 235
+    }
+
+    officers = {
+        culture = french
+        religion = catholic
+        size = 47
+    }
+
+    bureaucrats = {
+        culture = french
+        religion = catholic
+        size = 47
+    }
+
+    clergymen = {
+        culture = french
+        religion = catholic
+        size = 258
+    }
+
+    artisans = {
+        culture = french
+        religion = catholic
+        size = 1645
+    }
+
+    soldiers = {
+        culture = french
+        religion = catholic
+        size = 235
+    }
+
+    farmers = {
+        culture = french
+        religion = catholic
+        size = 21972
+    }
+
+    aristocrats = {
+        culture = ashkenazi
+        religion = jewish
+        size = 94
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 94
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 94
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 94
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 94
+    }
+
+    aristocrats = {
+        culture = french
+        religion = catholic
+        size = 11
+    }
+
+    bureaucrats = {
+        culture = french
+        religion = catholic
+        size = 2
+    }
+
+    officers = {
+        culture = french
+        religion = catholic
+        size = 3
+    }
+
+    clergymen = {
+        culture = french
+        religion = catholic
+        size = 9
+    }
+
+    artisans = {
+        culture = french
+        religion = catholic
+        size = 47
+    }
+
+    soldiers = {
+        culture = french
+        religion = catholic
+        size = 126
+    }
+
+    farmers = {
+        culture = french
+        religion = catholic
+        size = 855
+    }
+
+    farmers = {
+        culture = french
+        religion = protestant
+        size = 82
+    }
+
+    craftsmen = {
+        culture = french
+        religion = catholic
+        size = 3
+    }
+
+    craftsmen = {
+        culture = french
+        religion = catholic
+        size = 1
+    }
+
+    aristocrats = {
+        culture = french
+        religion = catholic
+        size = 15
+    }
+
+    officers = {
+        culture = french
+        religion = catholic
+        size = 3
+    }
+
+    bureaucrats = {
+        culture = french
+        religion = catholic
+        size = 3
+    }
+
+    clergymen = {
+        culture = french
+        religion = catholic
+        size = 17
+    }
+
+    artisans = {
+        culture = french
+        religion = catholic
+        size = 110
+    }
+
+    soldiers = {
+        culture = french
+        religion = catholic
+        size = 15
+    }
+
+    farmers = {
+        culture = french
+        religion = catholic
+        size = 1473
+    }
+
+    aristocrats = {
+        culture = french
+        religion = jewish
+        size = 6
+    }
+
+    soldiers = {
+        culture = french
+        religion = jewish
+        size = 6
+    }
+
+    clergymen = {
+        culture = french
+        religion = jewish
+        size = 6
+    }
+
+    artisans = {
+        culture = french
+        religion = jewish
+        size = 6
+    }
+
+    farmers = {
+        culture = french
+        religion = jewish
+        size = 6
+    }
+}

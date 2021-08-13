@@ -1,0 +1,12 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+
+add_core = OCC
+trade_goods = cattle
+life_rating = 31
+state_building = {
+    level = 1
+    building = canned_food_factory
+    upgrade = yes
+}

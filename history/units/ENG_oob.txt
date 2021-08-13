@@ -1,0 +1,948 @@
+#Sphere of Influence
+#GPs
+FRA = { value = -200 }
+RUS = { value = -50 }
+AUS = { value = -75 }
+USA = { value = 75 }
+PRU = { value = 50 }
+TUR = { value = 150 }
+SPA = { value = -75 }
+AST = { value = -200 }
+
+#Asia
+
+#Europe
+SAR = {
+	value = 150		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 100
+}
+
+POR = {
+	value = 200		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 100
+}
+
+
+SWE = {
+	value = 125		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+DNN = {
+	value = 50		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+#South America
+
+CUB = {
+	value = 150		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+HAI = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+
+leader = {
+	name = "Thomas Cochrane"
+	picture = eng_adm_cochrane
+	date = 1835.1.1
+	type = sea
+	personality = audacious
+	background = expert_raider
+	prestige = 3
+}
+
+army = {
+	name = "The Citizen Guard"
+	location = 300
+	regiment = {
+		name= "4th Light Dragoons"
+		type = hussar
+		home = 300
+	}
+
+	regiment = {
+		name= "The Commonwealth Dragoons (1st Dragoons)"
+		type = dragoon
+		home = 294
+	}
+
+	regiment = {
+		name= "11th Hussars"
+		type = cuirassier
+		home = 291
+	}
+
+	regiment = {
+		name= "The Grenadier Guards"
+		type = guard
+		home = 300
+	}
+
+	regiment = {
+		name= "The Coldstream Guards "
+		type = guard
+		home = 293
+	}
+	
+	regiment = {
+		name= "The Scots Fusiliers Guards"
+		type = guard
+		home = 271
+	}
+	
+	regiment = {
+		name= "The Black Watch Regiment"
+		type = guard
+		home = 268
+	}
+
+	regiment = {
+		name= "2nd Regiment Commonwealth Artillery"
+		type = artillery
+		home = 295
+	}
+	
+	regiment = {
+		name= "8th Regiment Commonwealth Artillery"
+		type = artillery
+		home = 298
+	}
+	
+	regiment = {
+		name= "9th Regiment Commonwealth Artillery"
+		type = artillery
+		home = 284
+	}
+	
+}
+
+army = {
+	name = "Iberian Expedetion"
+	location = 475
+	regiment = {
+		name= "14th Hussars"
+		type = hussar
+		home = 288
+	}
+	regiment = {
+		name= "The East Yorkshire Regiment"
+		type = infantry
+		home = 299
+	}
+
+	regiment = {
+		name= "The Port Elizabeth Regiment"
+		type = infantry
+		home = 289
+	}
+
+	regiment = {
+		name= "52nd (Oxfordshire) Regiment"
+		type = infantry
+		home = 281
+	}
+	
+	regiment = {
+		name= "The Newcastle Rifles"
+		type = infantry
+		home = 280
+	}
+
+	regiment = {
+		name= "10th Regiment Commonwealth Artillery"
+		type = artillery
+		home = 273
+	}
+	regiment = {
+		name= "35th (Commonwealth Sussex) Regiment"
+		type = infantry
+		home = 287
+	}
+	regiment = {
+		name= "22nd (The Cheshire) Regiment"
+		type = infantry
+		home = 300
+	}
+	
+	regiment = {
+		name= "17th Regiment Commonwealth Artillery"
+		type = artillery
+		home = 296
+	}
+
+	regiment = {
+		name= "4th Regiment Commonwealth Artillery"
+		type = artillery
+		home = 282
+	}
+
+	regiment = {
+		name= "25th Regiment Commonwealth Artillery"
+		type = artillery
+		home = 297
+	}
+}
+
+army = {
+	name = "The Strait Garrison"
+	location = 517
+	
+	regiment = {
+		name= "2nd Dragoons (Commonwealth Scots Greys)"
+		type = dragoon
+		home = 269
+	}
+	
+	regiment = {
+		name= "The Welch Regiment"
+		type = infantry
+		home = 274
+	}
+	
+	regiment = {
+		name= "34th (Cumberland) Regiment"
+		type = infantry
+		home = 264
+	}
+	
+	regiment = {
+		name= "6th Regiment Commonwealth Artillery"
+		type = artillery
+		home = 259
+	}
+	
+	regiment = {
+		name= "7th Regiment Commonwealth Artillery"
+		type = artillery
+		home = 275
+	}
+	
+}
+
+army = {
+	name = "The Mediterranean Garrison"
+	location = 854
+	
+	regiment = {
+		name= "2nd Dragoons (Commonwealth Scots Greys)"
+		type = dragoon
+		home = 292
+	}
+	
+	regiment = {
+		name= "The Welch Regiment"
+		type = infantry
+		home = 290
+	}
+	
+	regiment = {
+		name= "34th (Cumberland) Regiment"
+		type = infantry
+		home = 301
+	}
+	
+	regiment = {
+		name= "6th Regiment Commonwealth Artillery"
+		type = artillery
+		home = 302
+	}
+	
+	regiment = {
+		name= "7th Regiment Commonwealth Artillery"
+		type = artillery
+		home = 303
+	}
+	
+}
+
+army = {
+	name = "The Bermuda Garrison"
+	location = 203
+
+	regiment = {
+		name= "Duke of Cornwall's Light Infantry"
+		type = infantry
+		home = 286
+	}
+	
+	regiment = {
+		name= "34th (Cumberland) Regiment"
+		type = infantry
+		home = 285
+	}
+	
+}
+
+navy = {
+	name = "Channel Fleet"
+	location = 3269
+	ship = {
+		name= "BPS Asia"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Belleisle"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Bellerophon"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Britannia"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Calcutta"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Camperdown"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Carnatic"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Clarence"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Formidable"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Ganges"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Hastings"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Hawke"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Malabar"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Monarch"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Neptune"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Powerful"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Cromwell"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Robin Hood"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Rodney"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Commonwealth Adelaide"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Commonwealth George"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Commonwealth William"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Russell"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Talavera"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Thunderer"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Vanguard"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Vengeance"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Trafalgar"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS America"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Castor"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Conquestadore"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Eagle"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Forth"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Gloucester"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Pique"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Seahorse"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Stag"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Thalia"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Vernon"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Medea"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "BPS Phoenix"
+		type = commerce_raider
+	}
+
+}
+
+
+navy = {
+	name = "Mediterranean Fleet"
+	location = 854 #Malta
+	ship = {
+		name= "BPS Hogue"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Medway"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Mulgrave"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Pembroke"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Citizen Charlotte"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Scarborough"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Agincourt"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Black Virtuous"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Melville"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Minotaur"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Pitt"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Cochrane"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Alfred"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Andromeda"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Circe"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Clyde"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Cornwall"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Eurotas"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Fox"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Hotspur"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Leda"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Penelope"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS President"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Proserpine"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Salamander"
+		type = commerce_raider
+	}
+
+}
+
+
+
+navy = {
+	name = "Straits Station"
+	location = 517 #Gibraltar
+	ship = {
+		name= "BPS Africaine"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Cerberus"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Nemesis"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "North America Station"
+	location = 71 #Halifax
+	ship = {
+		name= "BPS Saint Vincent"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Sea Wolf"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Aeolus"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Barham"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Daedalus"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Druid"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Dublin"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Hebe"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Mercury"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Mermaid"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Rhadamanthus"
+		type = commerce_raider
+	}
+
+}
+
+
+
+navy = {
+	name = "1st Reserve Squadron"
+	location = 299
+	ship = {
+		name= "BPS Blenheim"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Cambridge"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Cornwallis"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Defence"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Genoa"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Hercules"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Howe"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Nelson"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Redoubtable"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Salisbury"
+		type = manowar
+	}
+
+	ship = {
+		name= "BPS Amazon"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Fisguard"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Isis"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Latona"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Melampus"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Minerva"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Nereus"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Seringapatam"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Southampton"
+		type = frigate
+	}
+
+	ship = {
+		name= "BPS Venus"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "1st Transport Squadron"
+	location = 3269
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6th Transport Flotilla"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "23th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "24th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "25th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "26th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "27th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "28th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "29th Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "2nd Transport Squadron"
+	location = 517
+	
+	ship = {
+		name= "7th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "8th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "9th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "10th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "19th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "20th Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "3rd Transport Squadron"
+	location = 854
+	
+	ship = {
+		name= "21st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "22nd Transport Flotilla"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "23rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "24th Transport Flotilla"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "25th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "26th Transport Flotilla"
+		type = clipper_transport
+	}
+
+}

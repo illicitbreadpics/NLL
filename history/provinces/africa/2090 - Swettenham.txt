@@ -1,0 +1,6 @@
+owner = VLK
+controller = VLK
+add_core = SAF
+trade_goods = fish
+life_rating = 35
+add_core = VLK

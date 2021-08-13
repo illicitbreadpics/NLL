@@ -1,0 +1,41 @@
+#nope
+country_event = {
+	id = 770002 
+	title = "Work in Progress"
+	desc = "This nation is at the moment UNPLAYABLE. Kindly play in Europe for now."
+	picture = "california_gold_rush" 
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		NOT = { capital_scope = { continent = europe } }
+	}
+
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "Okay"
+	}
+	
+}
+
+#Fr*nce
+country_event = {
+	id = 770003 
+	title = "EVTNAME770003" 
+    desc = "EVTDESC770003"
+	picture = "french_flag" 
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		tag = FRA
+	}
+
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "EVT770003OPTA"
+	}
+	
+}

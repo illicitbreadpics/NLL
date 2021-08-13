@@ -1,0 +1,8 @@
+owner = FRA
+controller = FRA
+add_core = EGY
+add_core = COP
+trade_goods = cotton
+life_rating = 35
+terrain = suez
+1861.1.1 = { railroad = 2 }

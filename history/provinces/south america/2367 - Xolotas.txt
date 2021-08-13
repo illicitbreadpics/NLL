@@ -1,0 +1,6 @@
+owner = ARC
+controller = ARC
+trade_goods = cotton
+terrain = savannalife_rating = 151861.1.1 = {    owner = ARC    controller = ARC    add_core = PRG}
+
+add_core = ARC

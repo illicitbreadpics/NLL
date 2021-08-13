@@ -1,0 +1,30 @@
+name = "Ottoman Subjugation of Nejd"
+
+1835.10.2 = {
+    add_attacker = HAL
+    add_attacker = TUR
+    add_defender = NEJ
+
+    # actor
+    # receiver
+    # casus_belli - cb type
+    # country - 3rd party
+    # state_province_id - target state capital
+    war_goal = {
+        casus_belli = establish_protectorate_casus_belli
+        actor = HAL
+        receiver = NEJ
+    }
+
+    war_goal = {
+        casus_belli = status_quo
+        actor = NEJ
+        receiver = HAL
+    }
+
+}
+
+1836.6.6 = {
+    rem_attacker = HAL
+    rem_defender = NEJ
+}

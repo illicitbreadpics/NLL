@@ -1,0 +1,9 @@
+owner = AWA
+controller = AWA
+add_core = MUG
+add_core = HND
+trade_goods = cattle
+life_rating = 32
+
+
+add_core = AWA

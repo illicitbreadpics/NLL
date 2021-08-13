@@ -1,0 +1,24 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+add_core = NET
+add_core = WLL
+add_core = PIC
+trade_goods = coal
+life_rating = 35
+terrain = mining_district
+state_building = {
+    level = 2
+    building = cement_factory
+    upgrade = yes
+}
+state_building = {
+    level = 2
+    building = steel_factory
+    upgrade = yes
+}
+state_building = {
+    level = 1
+    building = small_arms_factory
+    upgrade = yes
+}

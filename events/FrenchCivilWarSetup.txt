@@ -1,0 +1,49 @@
+#Secession
+country_event = {
+
+    id = 770100
+    title = "EVTNAME770100"
+    desc = "EVTDESC770100"
+    picture = "french_on_crimean_war"
+	
+    is_triggered_only = yes
+	
+	immediate = {
+        FRA_418 = { secede_province = BOR add_core = BOR }
+		FRA_420 = { secede_province = BOR add_core = BOR }
+		FRA_435 = { secede_province = BOR add_core = BOR }
+		FRA_438 = { secede_province = BOR add_core = BOR }
+		FRA_442 = { secede_province = BOR add_core = BOR }
+		FRA_445 = { secede_province = BOR add_core = BOR }
+		FRA_458 = { secede_province = BOR add_core = BOR }
+		FRA_461 = { secede_province = BOR add_core = BOR }
+		FRA_455 = { secede_province = BOR add_core = BOR }
+		SPA_498 = { secede_province = BOR add_core = BOR }
+		FRA_418 = { secede_province = BOR add_core = BOR }
+		FRA_418 = { secede_province = BOR add_core = BOR }
+		any_owned = {
+            limit = {
+                OR = {
+                    province_id = 426
+                    province_id = 3399
+                    province_id = 430
+                }
+            }
+            secede_province = BOR add_core = BOR
+		
+        }
+    }
+
+    option = {
+        name = "EVT770100OPTA"
+        ai_chance = { factor = 1 }
+    }
+
+    option = {
+        name = "EVT770100OPTB"
+        change_tag_no_core_switch = BOR
+        ai_chance = { factor = 0 }
+    }
+}	
+	
+	

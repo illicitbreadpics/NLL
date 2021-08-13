@@ -1,0 +1,7 @@
+owner = VLK
+controller = VLK
+trade_goods = wool
+life_rating = 15
+terrain = semidesert
+colonial = 1
+add_core = VLK

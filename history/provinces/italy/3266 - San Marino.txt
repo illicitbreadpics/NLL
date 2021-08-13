@@ -1,0 +1,7 @@
+owner = TUS
+controller = TUS
+trade_goods = wool
+life_rating = 35
+terrain = sanmarino
+
+add_core = TUS

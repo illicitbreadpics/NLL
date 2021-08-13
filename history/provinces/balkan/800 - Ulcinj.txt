@@ -1,0 +1,9 @@
+owner = DLM
+controller = DLM
+
+add_core = MON
+add_core = ALB
+trade_goods = grain
+life_rating = 35
+
+add_core = DLM
