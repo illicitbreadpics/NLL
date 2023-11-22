@@ -1,8 +1,0 @@
-owner = VLK
-controller = VLK
-add_core = SAF
-trade_goods = fruit
-life_rating = 40
-terrain = capetown
-naval_base = 1
-add_core = VLK

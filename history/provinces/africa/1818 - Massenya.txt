@@ -1,8 +1,0 @@
-owner = KBO
-controller = KBO
-add_core = BRM
-trade_goods = grain
-terrain = semidesert
-life_rating = 32
-
-add_core = KBO

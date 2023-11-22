@@ -1,9 +1,0 @@
-owner = MCD
-controller = MCD
-
-add_core = ALB
-trade_goods = cattle
-life_rating = 35
-naval_base = 1
-
-add_core = MCD

@@ -1,6 +1,0 @@
-owner = DLM
-controller = DLM
-add_core = CRO
-add_core = HUN
-trade_goods = iron
-life_rating = 35

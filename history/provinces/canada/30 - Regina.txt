@@ -1,9 +1,0 @@
-owner = MTC
-controller = MTC
-
-add_core = MTC
-trade_goods = grain
-terrain = steppe
-life_rating = 31
-    first = AST
-1861.1.1 = { add_core = MTC }

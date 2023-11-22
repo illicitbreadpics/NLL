@@ -1,8 +1,0 @@
-owner = SOK
-controller = SOK
-add_core = ADW
-trade_goods = timber
-life_rating = 35
-terrain = jungle_mountains
-
-add_core = SOK

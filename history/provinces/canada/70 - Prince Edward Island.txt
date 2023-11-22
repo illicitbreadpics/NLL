@@ -1,9 +1,0 @@
-owner = QUE
-controller = QUE
-add_core = ACA
-add_core = MRU
-trade_goods = fish
-life_rating = 31
-
-
-add_core = QUE

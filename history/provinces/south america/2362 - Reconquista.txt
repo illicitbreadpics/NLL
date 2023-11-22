@@ -1,7 +1,0 @@
-owner = ARC
-controller = ARC
-trade_goods = cattle
-terrain = savanna
-life_rating = 15
-
-add_core = ARC
